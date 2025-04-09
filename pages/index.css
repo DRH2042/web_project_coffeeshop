@@ -25,7 +25,7 @@
   justify-content: space-between;
 }
 
-.logo_coffeeshop_dark {
+.logo logo_coffeeshop_dark {
   height: 39px;
   width: 105px;
   margin-top: 30px;
@@ -91,7 +91,7 @@
   right: 5px;
 }
 
-.footer__header {
+.header__footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -100,7 +100,7 @@
   padding-top: 140px;
 }
 
-.footer__left {
+.header__hours {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -112,7 +112,7 @@
   padding-left: 80px;
 }
 
-.footer_location {
+.header__address {
   padding-bottom: 40px;
   padding-right: 80px;
   font-family: "inter";
@@ -159,7 +159,7 @@
   padding-left: 80px;
 }
 
-.videos__recipes {
+.recipes__videos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,7 +168,7 @@
   padding-bottom: 215px;
 }
 
-.Videos__caption {
+.videos__caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
