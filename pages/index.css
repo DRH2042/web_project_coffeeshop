@@ -49,6 +49,7 @@
 .header__title {
   margin-top: 183px;
   padding-left: 80px;
+  max-width: 709px;
 }
 
 .speciality-coffee {
