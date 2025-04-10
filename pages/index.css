@@ -50,10 +50,6 @@
   margin-top: 183px;
   padding-left: 80px;
 }
-.header__content-main {
-  margin-top: 28px;
-  padding-left: 80px;
-}
 
 .speciality-coffee {
   font-family: "Noto Serif";
@@ -85,6 +81,7 @@
   color: #000000;
   max-width: 683px;
   margin-top: 28px;
+  padding-left: 80px;
 }
 
 .header__image {
