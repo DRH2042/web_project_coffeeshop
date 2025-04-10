@@ -46,8 +46,12 @@
   font-weight: bold;
 }
 
-.header__content-main {
+.header__title {
   margin-top: 183px;
+  padding-left: 80px;
+}
+.header__content-main {
+  margin-top: 28px;
   padding-left: 80px;
 }
 
@@ -112,9 +116,9 @@
   padding-left: 80px;
 }
 
-.header__address {
+.header__paragraph_address {
   padding-bottom: 40px;
-  padding-right: 80px;
+  padding-right: 100px;
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
@@ -168,7 +172,7 @@
   padding-bottom: 215px;
 }
 
-.videos__caption {
+.recipes__caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter";
