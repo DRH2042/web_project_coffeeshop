@@ -108,12 +108,15 @@
             </div>
           </div>
         </section>
+
         <section class="reservation" id="reservation">
-          <h1>Reservar una mesa</h1>
-          <form class="reservation" action="">
-            <div class="form-group">
-              <label for="name">Nombre</label>
+          <h1 class="reservation__title">Reservar una mesa</h1>
+
+          <form class="reservation__form" action="">
+            <div class="reservation__form-group">
+              <label class="reservation__label" for="name">Nombre </label>
               <input
+                class="reservation__input"
                 type="text"
                 id="name"
                 name="name"
@@ -122,9 +125,12 @@
               />
             </div>
 
-            <div class="form-group">
-              <label for="Comensales">Número de comensales</label>
+            <div class="reservation__form-group">
+              <label class="reservation__label" for="comensales"
+                >Número de comensales
+              </label>
               <input
+                class="reservation__input"
                 type="number"
                 id="comensales"
                 name="comensales"
@@ -135,29 +141,49 @@
               />
             </div>
 
-            <div class="form-group">
-              <label for="fecha">Fecha y hora</label>
-              <input type="datetime-local" id="Fecha" name="Fecha" required />
+            <div class="reservation__form-group">
+              <label class="reservation__label" for="fecha"
+                >Fecha y hora
+              </label>
+              <input
+                class="reservation__input"
+                type="datetime-local"
+                id="fecha"
+                name="fecha"
+                required
+              />
             </div>
 
-            <div class="form-group">
-              <label for="Email">Email</label>
+            <div class="reservation__form-group">
+              <label class="reservation__label" for="email"
+                >Tu correo electrónico
+              </label>
               <input
-                type="Email"
-                id="Email"
-                name="Email"
+                class="reservation__input"
+                type="email"
+                id="email"
+                name="email"
                 placeholder="email@email.com"
                 required
               />
             </div>
 
-            <div class="form-group">
-              <button type="submit">Reservar una mesa</button>
+            <div
+              class="reservation__form-group reservation__form-group--actions"
+            >
+              <button class="reservation__button" type="submit">
+                Reservar una mesa
+              </button>
 
-              <div class="checkbox">
-                <input type="checkbox" id="terminos" required />
-                <label for="terminos">Acepto los términos de uso</label>
-              </div>
+              <label class="reservation__checkbox-label" for="terminos">
+                <input
+                  class="reservation__checkbox"
+                  type="checkbox"
+                  id="terminos"
+                  required
+                />
+                <span>Acepto los términos de uso</span>
+              </label>
             </div>
           </form>
         </section>
