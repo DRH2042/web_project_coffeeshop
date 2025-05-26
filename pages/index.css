@@ -200,137 +200,39 @@
   line-height: 52px;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 80px;
 }
 
 .reservation__form {
+  margin-top: 80px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.reservation__form-group {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 385px;
-  width: 120%;
-  box-sizing: border-box;
-}
-
-.reservation__label {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 8px;
-  margin-top: 32px;
-}
-
-.reservation__input {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-  height: 60px;
-  padding-left: 20px;
-  padding-top: 15px;
-}
-
-.reservation__input:focus {
-  border: 3px solid blue;
-}
-
-.reservation__button {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #2274f0;
-  color: white;
-  border-radius: 4px;
-  cursor: pointer;
-  width: 385px;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  height: 60px;
+/* == FORM BLOCK == */
+.form__fieldset {
   border: none;
-}
-
-.reservation__button:hover {
-  background-color: #838383;
-}
-
-.reservation__form-group--actions {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.reservation__checkbox-label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 16px;
-  margin-bottom: 120px;
-}
-
-.reservation__checkbox {
-  width: 20px;
-  height: 20px;
-}
-
-/* Reglas para los campos obligatorios */
-.reservation__form-group label::after {
-  content: "*";
-  color: red;
-  margin-left: 3px;
-}
-
-/* === CSS ANTIGUO ==
-.reservation__checkbox-label span::before {
-  content: "*";
-  color: red;
-  margin-left: 3px;
-}
-
-.form-group {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 385px;
+  width: 100%;
   box-sizing: border-box;
-  width: 120%;
 }
 
-.Form__title {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 80px;
-}
-
-.reservation label {
-  font-family: Inter;
+.form__label {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
-.reservation input {
-  font-family: Inter;
+.form__input {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -338,56 +240,55 @@
   height: 60px;
   padding-left: 20px;
   padding-top: 15px;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 32px;
 }
 
-.reservation button[type="submit"] {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  background-color: #2274f0;
-  color: white;
-  border-radius: 4px;
-  cursor: pointer;
-  max-width: 385px;
-  margin-top: 32px;
-  height: 60px;
-}
-
-.reservation button[type="submit"]:hover {
-  background-color: #838383;
-}
-
-main form div.form-group label::after {
-  content: "*";
-  color: red;
-  margin-left: 3px;
-}
-
-.form-checkbox span::before {
-  content: "*";
-  color: red;
-  margin-left: 3px;
-}
-
-main form div.form-group input:focus {
+.form__input:focus {
   border: 3px solid blue;
-}
-
-.reservation label[for="name"] {
-  padding-top: 80px;
-}
-
-.form-checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
 }
 
 .form__input-checkbox {
   width: 20px;
   height: 20px;
+  border-radius: 10px;
+  margin-right: 12px;
 }
-*/
+
+.form__checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 120px;
+}
+
+.form__button {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2274f0;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 60px;
+  border: none;
+  max-width: 385px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form__button:hover {
+  background-color: #838383;
+}
+
+.form__fieldset label::after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
