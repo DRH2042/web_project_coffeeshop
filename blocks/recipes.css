@@ -1,12 +1,3 @@
-.content {
-  background-image: url(/images/background_recipes.svg);
-  background-color: #0a2750;
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
-  flex: 1;
-}
-
 .recipes__title {
   font-family: "Inter";
   font-style: normal;
