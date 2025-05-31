@@ -4,6 +4,7 @@
   background-size: cover;
   height: 100vh;
   width: 100%;
+  flex: 1;
 }
 
 .recipes__title {

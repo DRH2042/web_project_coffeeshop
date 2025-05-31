@@ -12,19 +12,12 @@
   flex-direction: column;
 }
 
-.logo_coffeeshop_dark {
-  height: 39px;
-  width: 105px;
-  margin-top: 30px;
-  padding-left: 30px;
-}
-
 .header__title {
   margin-top: 183px;
   max-width: 709px;
 }
 
-.speciality-coffee {
+.header__em-title {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -35,7 +28,7 @@
   display: block;
 }
 
-.sub-title {
+.header__sub-title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
